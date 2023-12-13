@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(1100, 650);
+    createCanvas(1150, 700);
     background(16, 25, 84);
     frameRate(1);
 
@@ -41,7 +41,7 @@ function draw() {
 //resets after 15 seconds after the first time
 //after that, the text continues to pile up ad infinitum
 if(frameCount == 15) {
-    createCanvas(1100, 650);
+    createCanvas(1150, 700);
     background(16, 25, 84);
     frameRate(1);
 }

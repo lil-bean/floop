@@ -2,6 +2,7 @@ function setup() {
     createCanvas(1150, 600);
     background(16, 25, 84);
     frameRate(1);
+    textSize(14);
 
 }
 
@@ -42,6 +43,7 @@ if(frameCount == 15) {
     createCanvas(1150, 600);
     background(16, 25, 84);
     frameRate(1);
+    textSize(14);
 }
 
 }

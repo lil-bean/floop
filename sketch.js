@@ -2,13 +2,14 @@ function setup() {
     createCanvas(1150, 600);
     background(16, 25, 84);
     frameRate(1);
-    textSize(14);
 
 }
 
 
 function draw() {
 
+textSize(14);
+    
 //randomly chosen prepositon word
     var prep = ['behind', 'beyond', 'outside', 'past', 'around', 'toward', 'above', 'within'];
     var choosePrep = random(prep);
@@ -43,7 +44,6 @@ if(frameCount == 15) {
     createCanvas(1150, 600);
     background(16, 25, 84);
     frameRate(1);
-    textSize(14);
 }
 
 }

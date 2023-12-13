@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(1100, 800);
+    createCanvas(1100, 650);
     background(16, 25, 84);
     frameRate(1);
 }
@@ -39,7 +39,7 @@ function draw() {
    
 //resets after 30 seconds
 if(frameCount == 15) {
-    createCanvas(1100, 800);
+    createCanvas(1100, 650);
     background(16, 25, 84);
     frameRate(1);
 }   
